@@ -134,7 +134,7 @@ class DetectionTrainer(BaseTrainer):
 
 def train(cfg=DEFAULT_CFG, use_python=False):
     """Train and optimize YOLO model given training data and device."""
-    model = cfg.model or 'yolov8s.pt'
+    model = cfg.model or 'yolov8n.pt'
     data = cfg.data or '/home/wangzhaorong/nodule_det/nodule_yolov8/ultralytics/datasets/noduleyolo.yaml'  # or yolo.ClassificationDataset("mnist")
     #device = cfg.device if cfg.device is not None else '(0, 1, 2, 3)'
     device = cfg.device if cfg.device is not None else ''

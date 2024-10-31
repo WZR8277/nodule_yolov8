@@ -1,0 +1,7 @@
+path: /home/wangzhaorong/MyeloidCell/cell_yolov8/datasets/VOCdevkit  # dataset root dir
+train: train/images  # train images (relative to 'path') 1742289 images
+val: val/images # val images (relative to 'path') 80000 images
+nc: 1
+# Classes
+names:
+  0: Cell

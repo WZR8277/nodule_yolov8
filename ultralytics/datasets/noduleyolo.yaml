@@ -1,0 +1,8 @@
+path: /home/wangzhaorong/nodule_det/nodule_yolov8/datasets/nodule_det_data_v2  # dataset root dir
+train: train/images  # train images (relative to 'path') 1742289 images
+val: val/images # val images (relative to 'path') 80000 images
+nc: 2
+# Classes
+names:
+  0: Benign
+  1: Malignant
